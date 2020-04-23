@@ -1,0 +1,450 @@
+/*-- this is for typography --*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#headerTop {
+  padding-top: 4px;
+  padding-bottom: 8px;
+  background-color: #fff;
+  padding-left: 10px;
+}
+
+#menuArea {
+  background-color: #C4C4C4;
+}
+
+#menuArea ul {
+  padding-left: 80px;
+}
+
+#menuArea ul li {
+  display: inline-block;
+  margin-right: 500px;
+}
+
+#menuArea ul li a {
+  display: block;
+  width: 33%;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 4px 0px;
+}
+
+#menuArea ul li a:hover {
+  color: #00A359;
+}
+
+#menuArea ul .lastItem {
+  margin-right: 0px !important;
+}
+
+#homeBanar {
+  padding: 20px 0px;
+  background-color: #fff;
+}
+
+#homeBanar .homeBanarContent h5 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #000000;
+}
+
+#homeBanar .homeBanarContent h6 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #000000;
+}
+
+#homeBanar .homeBanarContent p {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+}
+
+#homeBanar .homeBanarContent h1 {
+  font-weight: 600;
+  font-size: 45px;
+  font-style: italic;
+}
+
+#banarBottomHome {
+  padding: 70px 0px;
+  background: #30506D;
+  clip-path: polygon(100% 0, 100% 24%, 100% 71%, 52% 100%, 0 75%, 0 0);
+}
+
+#banarBottomHome .banarBottomHomeContent h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+#banarBottomHome .banarBottomHomeContent .contentP {
+  margin-top: 15px;
+}
+
+#banarBottomHome .banarBottomHomeContent .contentP p {
+  color: rgba(255, 255, 255, 0.753);
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#banarBottomHome .banarBottomHomeContent .contentP a {
+  display: inline-block;
+  padding: 5px 40px;
+  color: #000000;
+  background: #C4C4C4;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+
+#banarBottomHome .banarBottomHomeContent .contentP a:hover {
+  background-color: #00A359;
+  color: #fff;
+}
+
+#homePageImage {
+  padding: 50px 0px 0px 0px;
+  background-color: #fff;
+}
+
+#homePageImage .homePageImageItem {
+  margin-bottom: 20px;
+}
+
+#homePageFooter {
+  position: relative;
+}
+
+#homePageFooter .homePageFooterContent {
+  position: absolute;
+  width: 100%;
+  bottom: 150px;
+  left: 0;
+  padding-top: 100px;
+}
+
+#homePageFooter .homePageFooterContent ul li {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+#homePageFooter .homePageFooterContent ul li a img {
+  height: 80px;
+}
+
+#aboutBanar {
+  padding: 20px 0px;
+  background-color: #fff;
+}
+
+#aboutBanar .aboutBanarContent h5 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #000000;
+}
+
+#aboutBanar .aboutBanarContent h6 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #000000;
+}
+
+#aboutBanar .aboutBanarContent p {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+}
+
+#aboutContent {
+  padding: 80px 0px;
+  background: #fff;
+}
+
+#aboutContent .aboutContentContent img {
+  height: 600px;
+  margin: 0 auto;
+  display: table;
+  margin-bottom: 80px;
+}
+
+#aboutContent .aboutContentContent h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  color: #000;
+}
+
+#aboutContent .aboutContentContent p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#aboutContent .aboutContentContent a {
+  padding: 5px 40px;
+  color: #000000;
+  background: #C4C4C4;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0 auto;
+  display: table;
+  margin-top: 30px;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+
+#aboutContent .aboutContentContent a:hover {
+  background-color: #00A359;
+  color: #fff;
+}
+
+#comonFooter {
+  position: relative;
+}
+
+#comonFooter .comonFooterContnt {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+}
+
+#comonFooter .comonFooterContnt h3 {
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+#comonFooter .comonFooterContnt .comonFooterContntItem a img {
+  height: 90px;
+}
+
+#contactContent {
+  padding: 100px 0px;
+  background-color: #fff;
+}
+
+#contactContent .contactContentMain img {
+  height: 500px;
+  margin: 0 auto;
+  display: table;
+}
+
+#contactContent .contactContentMain .contactContentMainText {
+  margin-top: 100px;
+}
+
+#contactContent .contactContentMain .contactContentMainText h3 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #000;
+  width: 65%;
+  margin: 0 auto;
+}
+
+#contactContent .contactContentMain .contactContentMainText a {
+  padding: 15px 90px;
+  color: #000000;
+  background: #C4C4C4;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0 auto;
+  display: table;
+  margin-top: 30px;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+
+#contactContent .contactContentMain .contactContentMainText a:hover {
+  background-color: #00A359;
+  color: #fff;
+}
+
+#letstalkEmpty {
+  height: 100px;
+  background: #fff;
+}
+
+#letsTalkForm {
+  padding: 100px 0px 0px 0px;
+  background-color: #fff;
+}
+
+#letsTalkForm .letsTalkFormContent h3 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #000;
+  text-align: center;
+}
+
+#letsTalkForm .letsTalkFormContent form {
+  margin-top: 20px;
+}
+
+#letsTalkForm .letsTalkFormContent form input {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  color: #000;
+}
+
+#letsTalkForm .letsTalkFormContent form button {
+  padding: 5px 90px;
+  color: #000000;
+  background: #C4C4C4;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0 auto;
+  display: table;
+  margin-top: 30px;
+  border-radius: 2px;
+  transition: 0.4s;
+  border: none;
+  outline: none;
+}
+
+#letsTalkForm .letsTalkFormContent form button:hover {
+  background-color: #00A359;
+  color: #fff;
+}
+
+#learnMoreBanar {
+  padding: 20px 0px;
+  background: #fff;
+}
+
+#learnMoreBanar .learnMoreBanarContent h5 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #000000;
+}
+
+#learnMoreBanar .learnMoreBanarContent h6 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #000000;
+}
+
+#learnMoreBanar .learnMoreBanarContent p {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+}
+
+#learmoreMain {
+  padding: 100px 0px 0px 0px;
+  background: #fff;
+}
+
+#learmoreMain .learmoreMainItem {
+  margin-bottom: 100px;
+}
+
+#learmoreMain .learmoreMainItem img {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+#learmoreMain .learmoreMainItem h3 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #000;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 40px;
+}
+
+#learmoreMain .learmoreMainItem p {
+  font-weight: 300;
+  font-size: 20px;
+  color: #000;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#learmoreMain .learmoreMainItem2 img {
+  height: auto !important;
+}
+
+#learmoreMain .learmoreMainItem2 p {
+  width: 80%;
+}
+
+#learmoreMain .learmoreMainItem3 img {
+  height: 400px !important;
+}
+
+#learmoreMain .learmoreMainItem3 p {
+  width: 90%;
+}
+
+#learmoreMain .learmoreMainItem4 {
+  margin-bottom: 0px !important;
+}
+
+#learmoreMain .learmoreMainItem4 p {
+  width: 90%;
+}
+
+.fake {
+  height: 600px;
+}
